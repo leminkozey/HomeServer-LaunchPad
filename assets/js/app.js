@@ -1,4 +1,5 @@
 const cards = document.querySelectorAll(".card");
+var cardsLink = cards.values("card__subtitle")
 
 cards.forEach((card) => {
   card.addEventListener("click", (event) => {
